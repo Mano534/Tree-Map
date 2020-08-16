@@ -1,0 +1,74 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 30px;
+    background: linear-gradient(  to right bottom , rgb(237, 255, 159) , rgb(124, 225, 255))
+
+}
+
+
+
+svg{
+    margin: 20px auto;
+    
+}
+svg.main{
+    border:5px solid #000 ; 
+
+}
+
+#title {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5px;
+}   
+
+
+#description{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#legend{
+    order: 2;
+    border:2px solid #f00 ; 
+    background-color: white;
+
+}
+g.til{
+    overflow-wrap: break-word;
+}
+
+.tile{
+    stroke: aliceblue;
+    stroke-width: 2px;
+}
+
+
+.here{
+    font-size: .5rem;
+    /* color:white; */
+    /* fill:rgb(80, 255, 203); */
+    z-index: 2;
+}
+
+text{
+    pointer-events: none;
+}
+.there{
+    font-size: .2rem;
+}
+
+#tooltip{
+    visibility: hidden;
+    position: absolute;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: rgba(119, 250, 255, 0.5);
+    color: black;
+    box-shadow: gray 5px 10px 3px;
+    margin: 0px;
+    z-index: 2;
+}

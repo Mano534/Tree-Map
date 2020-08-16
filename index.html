@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/inedx.css">
+    <title>Tree Map</title>
+</head>
+<body>
+    <div id="title">Movies Sales</div>
+    <div id="description">Top 100 Most Sold Movies Grouped by Platform</div>
+    <svg class="main"></svg>
+    <svg id="legend">
+            <g  transform='translate(50,40)''>
+                <rect class="legend-item" x="0" y="0" fill="red" width="30" height="10"></rect>
+                <text x="40" y="10">Action</text>
+            </g>
+            <g  transform='translate(50,70)''>
+                <rect class="legend-item" x="0" y="0" fill="yellow" width="30" height="10"></rect>
+                <text x="40" y="10">Adventure</text>
+            </g>
+            <g  transform="translate(50,100)">
+                <rect class="legend-item" x="0" y="0" fill="orange" width="30" height="10"></rect>
+                <text x="40" y="10">Comedy</text>
+            </g>
+            <g  transform="translate(50,130)">
+                <rect class="legend-item" x="0" y="0" fill="purple" width="30" height="10"></rect>
+                <text x="40" y="10">Drama</text>
+            </g>
+            <g  transform="translate(50,160)">
+                <rect class="legend-item" x="0" y="0" fill="grey" width="30" height="10"></rect>
+                <text x="40" y="10">Animation</text>
+            </g>
+            <g  transform="translate(50,190)">
+                <rect class="legend-item" x="0" y="0" fill="blue" width="30" height="10"></rect>
+                <text x="40" y="10">Biography</text>
+            </g>
+            <g  transform="translate(50,220)">
+                <rect class="legend-item" x="0" y="0" fill="green" width="30" height="10"></rect>
+                <text x="40" y="10">Family</text>
+            </g>
+    </svg>
+    <div id="tooltip"></div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./js/inedx.js"></script>
+</body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
+
+
+
+
+
+
+
+
+<!-- 
+    # Tree-Map
+## what i have learned from this project is :
+
+    * how to use the tree Map  .
+
+    * learned some about d3.hierarchy.
+
+## what is it about ??
+    
+    * its  actual the fifth part of the freeCodeCamp projects certification on the data visualization section . 
+
+    * its about making a tree-Map of the world most sold Movies of all time.
+
+# Enjoy ^_^
+
+ -->
